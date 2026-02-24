@@ -144,6 +144,7 @@ class PIOCharlieBank:
         self.dma_looper = rp2.DMA()
 
         self.arr = array.array("I")
+        # TODO: add support for double buffering
         self.arr.append(addressof(buf))
 
         self.dma.config(

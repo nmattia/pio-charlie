@@ -4,5 +4,5 @@ Run the demo:
 ```
 mpremote mkdir :/lin
 mpremote cp ./piocharlie.py :/lib/
-mpremote run ./main.py
+mpremote run ./flame.py # or ./bike.py
 ```
